@@ -48,7 +48,7 @@ $(".btn").on("click", function() {
       $("body").addClass("game-over");
 
       // reset game parameters
-      $("h1").html("Game Over. Please press any key to start a new game");
+      $("h1").html("Whomp Whomp :( Game Over. Please press any key to start a new game");
       level = 0;
       userClickCounter = 0;
       gamePattern = [];
